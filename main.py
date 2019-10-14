@@ -8,5 +8,5 @@ def greetings_http(request):
     elif request_args and 'name' in request_args:
         name = request_args['name']
     else:
-        name = 'my friend'
+        name = 'DEV vs OPS'
     return '<h1 style="margin:20px auto;width:800px;">Greetings from Linux Academy, {}!</h1><h2>Via Source Control Repo</h2>'.format(escape(name))
